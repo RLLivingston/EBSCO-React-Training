@@ -1,5 +1,3 @@
-import React from "react";
-
 class ApiService {
   async getBulletins() {
     const bulletins = await fetch(
@@ -7,7 +5,6 @@ class ApiService {
     );
     const toJson = bulletins.json();
 
-    console.log(toJson);
     return toJson;
   }
 
