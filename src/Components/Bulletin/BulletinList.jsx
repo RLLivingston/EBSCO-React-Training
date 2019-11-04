@@ -150,3 +150,29 @@ export default class BulletinList extends React.Component {
     );
   }
 }
+
+// componentDidMount() {
+//   this.loadBulletins();
+// }
+
+// async loadBulletins() {
+//   try {
+//     const bulletins = await ApiService.getBulletins();
+//     this.setState({
+//       isLoaded: true,
+//       items: bulletins
+//     });
+//   } catch (error) {
+//     this.setState({
+//       isLoaded: true,
+//       error
+//     });
+//   }
+// }
+
+// try {
+//   ApiService.patchUpvotes(bulletinId, patchBody);
+//   console.log("success");
+// } catch (error) {
+//   console.log(error);
+// }
