@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 
 export default class Bulletin extends React.Component {
@@ -9,7 +10,7 @@ export default class Bulletin extends React.Component {
       return (
         <div className="item">
           <div className="image">
-            <img src={this.props.bulletinImageUrl} />
+            <img src={this.props.bulletinImageUrl} alt="User" />
           </div>
           <div className="middle aligned content">
             <div className="header">
@@ -24,7 +25,7 @@ export default class Bulletin extends React.Component {
             </div>
             <div className="extra">
               <span>Submitted by:</span>
-              <img className="ui avatar image" src={this.props.avatarUrl} />
+              <img className="ui avatar image" src={this.props.avatarUrl} alt="Avatar" />
             </div>
           </div>
         </div>

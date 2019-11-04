@@ -11,6 +11,10 @@ const BulletinListFC = () => {
   });
 
   useEffect(() => {
+    loadData();
+  });
+
+  const loadData = () => {
     fetch("https://react-app-bulletins1.azurewebsites.net/api/bulletins")
       .then(res => res.json())
       .then(
@@ -27,7 +31,7 @@ const BulletinListFC = () => {
           });
         }
       );
-  });
+  }
 
   const handleBulletinUpvote = bulletinId => {
     const nextBulletins = ourState.items.map(item => {
