@@ -68,22 +68,22 @@ export default App;
 
 
 {/* <div className="item">
-          <div className="image">
-            <img />
-          </div>
-          <div className="middle aligned content">
-            <div className="header">
-              <a>
-                <i className="large caret up icon" />
-              </a>
-            </div>
-            <div className="description">
-              <a></a>
-              <p></p>
-            </div>
-            <div className="extra">
-              <span>Submitted by:</span>
-              <img className="ui avatar image" />
-            </div>
-          </div>
-        </div> */}
+      <div className="image">
+        <img />
+      </div>
+      <div className="middle aligned content">
+        <div className="header">
+          <a>
+            <i className="large caret up icon" />
+          </a>
+        </div>
+        <div className="description">
+          <a></a>
+          <p></p>
+        </div>
+        <div className="extra">
+          <span>Submitted by:</span>
+          <img className="ui avatar image" />
+        </div>
+      </div>
+    </div> */}
